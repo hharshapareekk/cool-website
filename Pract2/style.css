@@ -1,0 +1,31 @@
+body{
+    font-size: 18px;
+    background-color: pink;
+    line-height: 2.5;
+
+}
+p{
+    color: purple;
+}
+
+/* let's you define a class , anything defined with class as gray will turn it's color to gray*/
+ .gray {
+    color:gray;
+}
+.highlight
+{
+    text-transform: uppercase;
+    background-color: gold;
+    color:black;
+    font-style: italic;
+}
+
+h2{
+    color: blue;
+}
+
+/*universal select*/
+*{
+    color: blueviolet;
+
+}
