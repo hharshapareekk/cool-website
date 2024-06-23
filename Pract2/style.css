@@ -1,10 +1,33 @@
+*{
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* Typography -> The way text is arranged and presented*/
 body{
     font-size: 18px;
     background-color: pink;
     line-height: 2.5;
-
+    margin-left: 20em;
+    border: 10px double red;
+    outline: 5px solid purple;
+    outline-offset: 10px;
+    width: 50%;
+}   
+h2{
+    border: 2px  dashed red;
+    width: 50%;
+    font-size: 2rem;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
 }
 p{
+    text-decoration: underline;
+    word-spacing: 0.4em;
+    letter-spacing: 0.1em;
+    line-height: 3em;
+    font-weight: 900;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: purple;
 }
 
@@ -12,6 +35,7 @@ p{
  .gray {
     color:gray;
 }
+
 .highlight
 {
     text-transform: uppercase;
@@ -29,3 +53,19 @@ h2{
     color: blueviolet;
 
 }
+.element{
+    width: 100px;
+    height: 100px;
+    background-color:gold;
+    border: 2px solid black;
+    outline: 2px solid red;
+    outline-offset: 0.5rem;
+    margin: 3rem auto;
+    border-radius:50px;
+
+}
+
+
+
+
+
